@@ -26,7 +26,7 @@ export default function Architecture() {
               designing for reliability so software continues to work when conditions change.
             </p>
             <p className="architecture__note">
-              This is how I approach both personal projects and professional work — thinking about
+              This is how I approach both personal projects and professional work thinking about
               the whole system, not just the part in front of me.
             </p>
           </div>

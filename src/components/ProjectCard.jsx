@@ -1,4 +1,4 @@
-import Button from './Button'
+
 
 export default function ProjectCard({ project }) {
   return (
@@ -23,12 +23,7 @@ export default function ProjectCard({ project }) {
       </ul>
 
       <div className="project-card__actions">
-        <Button href={project.liveUrl} variant="primary">
-          View Project
-        </Button>
-        <Button href={project.sourceUrl} variant="secondary">
-          Source Code
-        </Button>
+        
       </div>
     </article>
   )

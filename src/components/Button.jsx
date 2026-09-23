@@ -1,3 +1,4 @@
+
 const variants = {
   primary: 'btn btn--primary',
   secondary: 'btn btn--secondary',
@@ -15,7 +16,7 @@ export default function Button({
   const classes = `${variants[variant] || variants.primary} ${className}`.trim()
 
   if (href) {
-    const isExternal = href.startsWith('http')
+    const isExternal = href.startsWith('http://') || href.startsWith('https://')
     return (
       <a
         href={href}
