@@ -42,7 +42,7 @@ export default function Footer() {
         </div>
 
         <p className="footer__copy">
-          &copy; {year} {SITE.name}. All rights reserved.
+          &copy; {year} {SITE.name}
         </p>
       </div>
     </footer>

@@ -8,9 +8,31 @@ export const SITE = {
   linkedin: 'https://www.linkedin.com/in/foyat-getachew-9005943b3',
 }
 
+// Updated: Only About Me and Contact
+export const NAV_LINKS = [
+  { label: 'About Me', href: '#tech-capabilities' },
+  { label: 'Contact', href: '#contact' },
+]
+
 export const PROJECTS = [
-  { id: 'ze-sino', title: 'Ze-Sino Trading PLC', url: 'https://github.com/foyattt/ze-sino-trading' },
-  { id: 'transitium', title: 'Transitium', url: 'https://github.com/foyattt/transitium' },
-  { id: 'muday-flow', title: 'Muday Flow', url: 'https://github.com/foyattt/muday-flow' },
-  { id: 'ai-ml', title: 'RAG & AI Pipeline', url: 'https://github.com/foyattt/ai-ml-classification' },
+  { 
+    id: 'ze-sino', 
+    title: 'Ze-Sino Trading PLC', 
+    url: 'https://github.com/foyattt/zesinotradingplc' 
+  },
+  { 
+    id: 'transitium', 
+    title: 'Transitium', 
+    url: 'https://github.com/foyattt' 
+  },
+  { 
+    id: 'muday-flow', 
+    title: 'Muday Flow', 
+    url: 'https://github.com/foyattt/muday-flow-web' 
+  },
+  { 
+    id: 'ai-ml', 
+    title: 'RAG & AI Pipeline', 
+    url: 'https://github.com/foyattt/ai-ml-classification' 
+  },
 ]
